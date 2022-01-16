@@ -55,6 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.querySelector('.btn-exit').addEventListener('click',() =>{
-    console.log('hello');   
+    //console.log('hello');   
     document.querySelector('.dialog').style.display='none';
 })
