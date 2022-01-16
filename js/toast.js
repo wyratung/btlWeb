@@ -23,11 +23,11 @@ const toasts = {
 
 function createToast(status) {
 	let toast = document.createElement('div')
-	toast.className = `toast ${status}`
+	toast.className = `toast success`
 
 	toast.innerHTML = `
-    ${toasts[status].icon}
-    <span class="msg">${toasts[status].msg}</span>
+    <i class="fas fa-check-circle"></i>
+    <span class="msg">Thành công !</span>
     <span class="countdown"></span>
     `
 	document.querySelector('#toasts').appendChild(toast)
